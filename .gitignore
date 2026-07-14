@@ -1,0 +1,7 @@
+# SSL Certificates archive
+certs/
+# OS
+.DS_Store
+Thumbs.db
+# Root-level env
+.env

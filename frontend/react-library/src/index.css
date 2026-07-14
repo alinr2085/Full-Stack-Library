@@ -1,0 +1,55 @@
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+
+.nav-style {
+  background-color: rgb(8, 94, 243);
+}
+
+@media (max-width: 991.98px) {
+  #navbarOptions {
+    display: none !important;
+  }
+  #navbarOptions.show {
+    display: block !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .book-image {
+    width: 120px;
+    height: 160px;
+  }
+}
+
+.hero-selection {
+  width: 90%;
+  height: 300px;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-selection::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/images/download-b.jfif") center/cover;
+  filter: blur(3px);
+  z-index: -1;
+}
