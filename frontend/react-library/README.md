@@ -35,9 +35,9 @@ A full-stack library management system with book search, checkout, reviews, and 
 - Stripe React SDK
 - Bootstrap
 
-## 📸 Screenshots
+## 📸 Demo
 
-> _Add screenshots here once available — e.g. homepage, search page, checkout, payment page._
+![Demo](docs/screenshots/demo.gif)
 
 ## 🚀 Getting Started
 
